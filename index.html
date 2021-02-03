@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="banner">
+      <picture>
+        <source srcset="/b-480.webp" media="(max-width: 480px)" />
+        <source
+          srcset="/b-1024.webp"
+          media="(min-width: 391px) and (max-width: 1024px)"
+        />
+        <source
+          srcset="/b-1440.webp"
+          media="(min-width: 1025px) and (max-width: 1440px)"
+        />
+        <source
+          srcset="/b-1920.webp"
+          media="(min-width: 1441px) and (max-width: 1920px)"
+        />
+        <source srcset="/b-1920.webp" media="(min-width: 1921px)" />
+        <img src="/b-1024.webp" alt="image" />
+      </picture>
+    </div>
+    <h1>Banner Height <span></span></h1>
+    <h3></h3>
+  </body>
+  <script src="index.js"></script>
+</html>
